@@ -3,6 +3,7 @@
 To write a C program to implement Page Replacement technique using FIFO
 
 # ALGORITHM:
+
 1.Start the program.
 2.Get the number of pages and their sequence from the user
 3.Get the number of available page frames from the user.
@@ -65,6 +66,7 @@ Thus the implementation of LRU page replacement is successfully executed.
 To write a C program to implement Page Replacement technique using OPR
 
 # ALGORITHM:
+
 1.Start the program.
 2.Take the input of pages as an array.
 3.Look for the page allocated is present in near future, if no then replace that page in the memory with new page,
