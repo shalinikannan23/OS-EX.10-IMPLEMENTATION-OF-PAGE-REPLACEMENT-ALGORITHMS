@@ -5,13 +5,21 @@ To write a C program to implement Page Replacement technique using FIFO
 # ALGORITHM:
 
 1.Start the program.
+
 2.Get the number of pages and their sequence from the user
+
 3.Get the number of available page frames from the user.
+
 4.In FIFO, on the basics of first in first out, replace the pages respectively, then find number of page faults occurred.
+
 5.Compare all frames with incoming page 6. If the incoming page is already available in page frame, set the match flag to indicate ‘no need of page replacement’.
+
 6.If the incoming page is not available in all frames, then remove the page which is loaded into the memory long back and give space for new incoming page.
+
 7.Increment the ‘number of Page faults counter
+
 8.Print the number of page faults.
+
 9.Stop the program.
 
 # PROGRAM:
@@ -68,11 +76,17 @@ To write a C program to implement Page Replacement technique using OPR
 # ALGORITHM:
 
 1.Start the program.
+
 2.Take the input of pages as an array.
+
 3.Look for the page allocated is present in near future, if no then replace that page in the memory with new page,
+
 4.If page already present increment hit, else increment miss.
+
 5.Repeat till we reach the last element of the array.
+
 6.Print the number of hits and misses.
+
 7.Stop the program.
 
 # PROGRAM:
